@@ -10,12 +10,15 @@ function App() {
   //let counter = 15;
 
   const addValue = () => {
-    counter += 1;
-    if (counter >= 35) {
-      counter = 35
-      ;
-    }
-    setCounter(counter);
+    // counter += 1;
+    // if (counter >= 35) {
+    //   counter = 35;
+    // }
+    // setCounter(counter);
+    setCounter((counter) => counter + 1);
+    setCounter((counter) => counter + 1);
+    setCounter((counter) => counter + 1);
+    setCounter((counter) => counter + 1);
   }
 
   const removeValue = () => {
